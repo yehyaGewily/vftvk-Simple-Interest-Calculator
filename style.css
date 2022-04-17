@@ -13,30 +13,28 @@ body {
     background-color:white;
     font-family:arial;
     color:black;
-    box-align:center;
-    width:600px;
-    height:600 ;
+    width:700px;
     padding:20px;
     border-radius:25px;
-    margin-top: auto;
-  margin-bottom: auto;
-  margin-right: auto;
-  margin-left: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
    
-    text-align:left
+
+text-align:left
 }
 label{
     display: inline-block;
     clear: left;
     width: 130px;
-    text-align:left; /*Change to right here if you want it close to the inputs*/
+    text-align:left; 
 }
 input {
   display: inline-block;
  
 }
-
-
-
 
 
