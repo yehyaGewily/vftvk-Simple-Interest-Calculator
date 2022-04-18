@@ -1,9 +1,11 @@
 function compute()
 {
     var principal = document.getElementById("principal").value;
-    if(principal<=0)
+    if(principal == undefined || principal <= 0)
     {
         window.alert(' Enter a positive number');
+        document.getElementById("principal").focus();
+        return
         
     }
     var rate = document.getElementById("rate").value;
