@@ -11,7 +11,7 @@ body {
 
 .maindiv {
     background-color:white;
-    font-family:arial;
+    font-family:Georgia;
     color:black;
     width:700px;
     padding:20px;
@@ -22,6 +22,7 @@ body {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    font-size: 1.1em;
    
 
 text-align:left
@@ -36,5 +37,11 @@ input {
   display: inline-block;
  
 }
-
+#result
+{
+ text-align:left;
+ font-family:Georgia;
+ 
+ 
+}
 
